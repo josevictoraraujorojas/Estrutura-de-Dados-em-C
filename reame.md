@@ -13,12 +13,12 @@ struct <identificador>
  struct <identificador> <variavel>;
  ```
 
- ## & em C
+ # & em C
 
- É o operador "endereço de". Então o resultado dele sempre será o endereço de memória do objeto em questão (em geral o local onde uma variável está alocada na memória)
+ `&` é um operador que nos permite acessar e modificar um endereço de memória de uma variável.
  
 
- # POnteiro
+ # Ponteiro
 
  A utilização de ponteiros em linguagem C é uma das características que tornam a linguagem tão flexível e poderosa.
 

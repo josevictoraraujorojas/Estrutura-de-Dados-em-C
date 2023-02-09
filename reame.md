@@ -1,4 +1,7 @@
-# Struct
+# Estruturas de dados Heterogêneas(struct)
+
+Diferentemente dos tipos homogêneos, essas estrturas permitem a manipulação de um conjunto de informações de tipos de dados primitivos diferentes, mas que possuem um relacionamento lógico entre si;
+
 Uma struct é uma variável especial que contém diversas outras variáveis normalmente de tipos diferentes.
 
 As variáveis internas contidas pela struct são denominadas membros da struct.

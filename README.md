@@ -1,4 +1,4 @@
-# Estruturas de dados Heterogêneas(struct)
+# Estruturas de dados Heterogêneas(struct) 
 
 Diferentemente dos tipos homogêneos, essas estrturas permitem a manipulação de um conjunto de informações de tipos de dados primitivos diferentes, mas que possuem um relacionamento lógico entre si;
 

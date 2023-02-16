@@ -18,7 +18,7 @@ struct <identificador>
 
  # & em C
 
- `&` é um operador que nos permite acessar e modificar um endereço de memória de uma variável.
+ `&` é um operador que nos permite acessar um endereço de memória de uma variável.
  
 
  # Ponteiro

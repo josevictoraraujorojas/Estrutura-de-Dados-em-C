@@ -17,5 +17,4 @@ int main()
 		printf("End. Memoria: %p, valor: %d\n", p+i, *(p+i));
 	}
 	free(p);
-	system("pause");	
 }

@@ -3,11 +3,13 @@
 
 int main()
 {
-	int *p, i=0, q=0;
+	printf("sizeof(int)=%d\n",sizeof(int));
+	int *p=0, i=0, q=0;
 	
 	printf("Digite quantas variaveis voce quer");
 	scanf("%d", &q);
-	p= (int*)malloc(i*64);
+	printf("valor q = %d",q);
+	p= (int*)malloc(q*sizeof(int));
 	
 	for(i = 0; i < q; i++){
 		*(p+i) = i*3;

@@ -6,7 +6,7 @@ void atribuindoValor(int *array, int n);
 void Imprimi(int *array,int n);
 int main()
 {
-    int  n=10, primeiroArray[n], m=10, segundoArray[m];
+    int  n=10, primeiroArray[n], m=11, segundoArray[m];
     int terceiroArray[sizeof(primeiroArray)/sizeof(primeiroArray[0])];
 
     atribuindoValor(primeiroArray,n);

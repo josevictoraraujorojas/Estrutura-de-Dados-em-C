@@ -5,7 +5,6 @@ void imprimiEnderecoDeMemoria(float *v,int tamanhoArray);
 int main()
 {
    float elementos[3][3];
-   sizeofe(elementos)/sizeof(elementos[0]);
    imprimiEnderecoDeMemoria(elementos,3*3);
 }
 void imprimiEnderecoDeMemoria(float *v,int tamanhoArray){

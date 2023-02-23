@@ -1,3 +1,5 @@
+/*11. Crie um programa que contenha um array contendo 5 elementos inteiros. Leia esse array
+do teclado e imprima o enderec¸o das posic¸oes contendo valores pares.*/
 #include<stdlib.h>
 #include<stdio.h>
 

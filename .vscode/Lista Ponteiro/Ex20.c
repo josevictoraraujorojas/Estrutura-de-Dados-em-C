@@ -1,3 +1,6 @@
+/*20. Implemente uma func¸ao que receba como par ˜ ametro um array de n ˆ umeros reais de ´
+tamanho N e retorne quantos numeros negativos h ´ a nesse array. Essa func¸ ´ ao deve ˜
+obedecer ao prototipo:*/
 #include<stdlib.h>
 #include<stdio.h>
 

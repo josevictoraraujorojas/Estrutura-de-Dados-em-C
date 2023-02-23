@@ -1,3 +1,6 @@
+/*5. Fac¸a um programa que leia dois valores inteiros e chame uma func¸ao que receba estes ˜
+2 valores de entrada e retorne o maior valor na primeira variavel e o menor valor na ´
+segunda variavel. Escreva o conte ´ udo das 2 vari ´ aveis na tela. */
 #include<stdlib.h>
 #include<stdio.h>
 void recebeValores(int *p1,int *p2);

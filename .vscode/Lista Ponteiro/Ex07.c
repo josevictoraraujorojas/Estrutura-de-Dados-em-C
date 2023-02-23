@@ -1,3 +1,7 @@
+/*7. Crie um programa que contenha uma func¸ao que permita passar por par ˜ ametro dois ˆ
+numeros inteiros A e B. A func¸ ´ ao dever ˜ a calcular a soma entre estes dois n ´ umeros e ´
+armazenar o resultado na variavel A. Esta func¸ ´ ao n ˜ ao dever ˜ a possuir retorno, mas dever ´ a´
+modificar o valor do primeiro parametro. Imprima os valores de A e B na func¸ ˜ ao principal. */
 #include<stdlib.h>
 #include<stdio.h>
 

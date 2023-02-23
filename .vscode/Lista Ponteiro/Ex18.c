@@ -1,3 +1,5 @@
+/*18. Implemente uma func¸ao que calcule a ˜ area da superf ´ ´ıcie e o volume de uma esfera de
+raio R. Essa func¸ao deve obedecer ao prot ˜ otipo:*/
 #include<stdlib.h>
 #include<stdio.h>
 void calculaEsfera(float r,float *area,float *volume);

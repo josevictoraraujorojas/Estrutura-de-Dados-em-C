@@ -1,3 +1,6 @@
+/*14. Crie uma func¸ao que receba dois par ˜ ametros: um array e um valor do mesmo tipo do ˆ
+array. A func¸ao dever ˜ a preencher os elementos de array com esse valor. N ´ ao utilize ˜
+´ındices para percorrer o array, apenas aritmetica de ponteiros.*/
 #include<stdlib.h>
 #include<stdio.h>
 

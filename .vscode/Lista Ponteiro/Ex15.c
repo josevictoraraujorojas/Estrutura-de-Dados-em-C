@@ -1,3 +1,5 @@
+/*15. Crie uma func¸ao que receba como par ˜ ametro um array e o imprima. N ˆ ao utilize ˜ ´ındices
+para percorrer o array, apenas aritmetica de ponteiros. */
 #include<stdlib.h>
 #include<stdio.h>
 

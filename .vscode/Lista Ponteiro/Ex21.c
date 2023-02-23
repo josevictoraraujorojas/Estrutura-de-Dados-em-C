@@ -1,3 +1,6 @@
+/*21. Escreva um programa que declare um array de inteiros e um ponteiro para inteiros. Associe o ponteiro ao array. Agora, some mais um (+1) a cada posic¸ao do array usando o ˜
+ponteiro (use *).*/
+
 #include<stdlib.h>
 #include<stdio.h>
 

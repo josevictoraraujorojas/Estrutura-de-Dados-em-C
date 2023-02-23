@@ -1,3 +1,5 @@
+/*9. Crie um programa que contenha uma matriz de float contendo 3 linhas e 3 colunas.
+Imprima o enderec¸o de cada posic¸ao dessa matriz.*/
 #include<stdlib.h>
 #include<stdio.h>
 void imprimiEnderecoDeMemoria(float *v,int tamanhoArray);

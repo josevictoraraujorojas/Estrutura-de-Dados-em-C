@@ -1,3 +1,7 @@
+/*22. Crie uma func¸ao para somar dois arrays. Esta func¸ ˜ ao deve receber dois arrays e retornar ˜
+a soma em um terceiro array. Caso o tamanho do primeiro e segundo array seja diferente
+entao a func¸ ˜ ao retornar ˜ a ZERO (0). Caso a func¸ ´ ao seja conclu ˜ ´ıda com sucesso a mesma
+deve retornar o valor UM (1). Utilize aritmetica de ponteiros para manipulac¸ ´ ao do array. */
 #include<stdlib.h>
 #include<stdio.h>
 

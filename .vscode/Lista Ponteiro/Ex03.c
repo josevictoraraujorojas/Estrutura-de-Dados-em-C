@@ -1,3 +1,5 @@
+/*3. Escreva um programa que contenha duas variaveis inteiras. Leia essas vari ´ aveis do ´
+teclado. Em seguida, compare seus enderec¸os e exiba o conteudo do maior enderec¸o.*/
 #include<stdlib.h>
 #include<stdio.h>
 void ComparaEndereco(int *ponteiroX, int *ponteiroY);

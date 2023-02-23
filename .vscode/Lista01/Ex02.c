@@ -4,10 +4,8 @@ void ComparaEndereco(int *ponteiroX, int *ponteiroY);
 
 int main()
 {
-    int  x,y,*ponteiroX,*ponteiroY;
-    ponteiroX = &x;
-    ponteiroY = &y;
-    ComparaEndereco(ponteiroX,ponteiroY);
+    int  x,y;
+    ComparaEndereco(&x,&y);
 
     
 }

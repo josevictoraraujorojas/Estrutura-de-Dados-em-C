@@ -5,8 +5,7 @@ int main()
 {
     int a=20,b=10;
     printf("valores originais a = %d e b = %d",a,b);
-    int *p1 =&a,*p2=&b;
-    trocaValor(p1,p2);
+    trocaValor(&a,&b);
     printf("\nvalores trocadosa = %d e b = %d",a,b);
 
 

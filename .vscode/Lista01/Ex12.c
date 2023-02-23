@@ -10,9 +10,7 @@ int main()
     printf("digite 3 valores");
     scanf("%d %d %d",&a,&b,&c);
 
-    int *p1=&a, *p2=&b, *p3=&c;
-
-    printf("%d\n",organizaValores(p1,p2,p3));
+    printf("%d\n",organizaValores(&a,&b,&c));
     printf("a=%d\nb=%d\nc=%d",a,b,c);
 
 }

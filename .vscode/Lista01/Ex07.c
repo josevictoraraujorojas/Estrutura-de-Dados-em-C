@@ -9,8 +9,7 @@ int main()
    printf("Digite dois valores inteiros");
    scanf("%d %d",&a,&b);
 
-   int *p1 =&a,*p2=&b;
-   somaDeDoisNumeros(p1,p2);
+   somaDeDoisNumeros(&a,&b);
    printf("\nValor de a = %d\nValor de b = %d\n",a,b);
 
 }

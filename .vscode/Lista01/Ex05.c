@@ -7,8 +7,7 @@ int main()
     int a,b;
    printf("Digite dois valores inteiros");
    scanf("%d %d",&a,&b);
-   int *p1 =&a,*p2=&b;
-   recebeValores(p1,p2);
+   recebeValores(&a,&b);
      printf("primeira variavel = %d e segunda variavel = %d",a,b);
 
 

@@ -8,10 +8,8 @@ int main()
    printf("Digite dois valores inteiros");
    scanf("%d %d",&a,&b);
 
-   int *p1 =&a,*p2=&b;
-
    printf("\nValor de a = %d\nValor de b = %d\n",a,b);
-   printf("A soma do dobro de a e b = %d",somaDoDobro(p1,p2));
+   printf("A soma do dobro de a e b = %d",somaDoDobro(&a,&b));
    printf("\nValor de a = %d\nValor de b = %d\n",a,b);
 
 

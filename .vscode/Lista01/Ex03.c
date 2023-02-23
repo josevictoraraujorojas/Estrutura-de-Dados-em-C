@@ -3,12 +3,11 @@
 void ComparaEndereco(int *ponteiroX, int *ponteiroY);
 int main()
 {
-   int x,y,*ponteiroX,*ponteiroY;
+   int x,y;
    printf("Atribua o valor de x e y");
    scanf("%d %d",&x,&y);
-   ponteiroX = &x;
-   ponteiroY = &y;
-   ComparaEndereco(ponteiroX,ponteiroY);
+   
+   ComparaEndereco(&x,&y);
 }
 void ComparaEndereco(int *ponteiroX, int *ponteiroY){
     if (ponteiroX>ponteiroY)

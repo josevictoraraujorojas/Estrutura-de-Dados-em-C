@@ -9,7 +9,7 @@ void buscaMaximoMinino(int *array,int n,int *maximo,int *minimo);
 
 int main()
 {
-    int n=10, array[n], minimo=0, maximo=0;
+    int n=10, array[n], minimo, maximo;
     atribuindoValor(array,n);
     Imprimi(array,n);
     buscaMaximoMinino(array,n,&maximo,&minimo);
@@ -34,7 +34,9 @@ void atribuindoValor(int *array, int n){
     }
 }
 void buscaMaximoMinino(int *array,int n,int *maximo,int *minimo){
-    *minimo = *array+1;
+    printf("%d",*(array+1));
+    *minimo = *(array+1);
+    *maximo = *(array+1);
     for (int i = 0; i < n; i++)
     {
         if (*(array+i)<*minimo)
